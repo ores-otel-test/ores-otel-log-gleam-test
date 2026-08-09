@@ -1,15 +1,21 @@
 {
+  "capabilities": [
+    "record-schema",
+    "api-manifest",
+    "context-isolation",
+    "otel-explicit",
+    "no-monkey-patching",
+    "lifecycle",
+    "concurrency"
+  ],
   "language": "gleam",
-  "matrixVersion": "ores.otel.test-repository/v1",
   "name": "ores-otel-log-gleam-test",
-  "requireExactHeadChecks": true,
-  "requireNoMonkeyPatching": true,
   "runtime": "Gleam on OTP",
   "sources": [
     "ores-otel/ores.otel.log",
     "ORESoftware/next-loggers.ts"
   ],
-  "status": "seeded",
+  "status": "planned",
   "testCommand": "gleam format --check src test && gleam test",
   "toolchain": "gleam"
 }
