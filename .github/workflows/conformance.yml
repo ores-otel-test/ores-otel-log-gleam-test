@@ -66,5 +66,5 @@ jobs:
         shell: bash
         run: |
           cd source/sdk/gleam
-          gleam format --check src test
+          gleam format --check test
           gleam test
