@@ -5,6 +5,7 @@ target/
 .build/
 .dart_tool/
 _build/
+build/
 
 # >>> ores fleet hygiene — managed block, edits below are overwritten >>>
 tmp/temp/
